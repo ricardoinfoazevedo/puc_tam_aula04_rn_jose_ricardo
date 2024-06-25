@@ -1,50 +1,72 @@
-# Welcome to your Expo app 👋
+### Read.me
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Projeto de Prática de Testes Unitários com TypeScript e Jest
 
-## Get started
+Este projeto foi criado com o propósito de oferecer aos estudantes uma oportunidade de praticar o desenvolvimento de testes unitários utilizando TypeScript e Jest. Abaixo estão os exercícios que este projeto aborda:
 
-1. Install dependencies
+## Exercícios de Testes Unitários
 
-   ```bash
-   npm install
-   ```
+### Função de Comprimento (Length)
+Teste a função `length` que retorna o comprimento de uma string.
 
-2. Start the app
+- Teste com string vazia
+- Teste com string de um único caractere
+- Teste com string já ordenada
+- Teste com string em ordem reversa
+- Teste com string não ordenada
 
-   ```bash
-    npx expo start
-   ```
+### Função de Máximo (Maximum)
+Teste a função `max` que retorna o maior entre dois números.
 
-In the output, you'll find options to open the app in a
+- Teste com ambos os números positivos
+- Teste com ambos os números negativos
+- Teste com um número positivo e um negativo
+- Teste com zero e um número positivo
+- Teste com zero e um número negativo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Função de Ordenação (Sort)
+Teste a função `sort` que ordena um array de strings.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Teste com array vazio
+- Teste com array de um único elemento
+- Teste com array já ordenado
+- Teste com array em ordem reversa
+- Teste com array não ordenada
 
-## Get a fresh project
+### Função de Palíndromo (Palindrome)
+Teste a função `isPalindrome` que verifica se uma string é um palíndromo.
 
-When you're ready, run:
+- Teste com string vazia
+- Teste com string de um único caractere
+- Teste com string que é um palíndromo
+- Teste com string que não é um palíndromo
 
-```bash
-npm run reset-project
-```
+## Estrutura do Projeto
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+O projeto está estruturado da seguinte forma:
 
-## Learn more
+- **src**: Contém as funções que serão testadas.
+- **test**: Contém os testes unitários escritos com Jest.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Executando os Testes
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Para executar os testes, siga os passos abaixo:
 
-## Join the community
+1. Instale as dependências:
+    ```bash
+    npm install
+    ```
 
-Join our community of developers creating universal apps.
+2. Execute os testes:
+    ```bash
+    npm test
+    ```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Ferramentas Utilizadas
+
+- **TypeScript**: Linguagem de programação usada para escrever as funções.
+- **Jest**: Framework de testes utilizado para escrever e executar os testes unitários.
+
+Este projeto oferece um ambiente para os estudantes praticarem esses exercícios e aprimorarem suas habilidades em testes unitários utilizando TypeScript e Jest.
+
+Divirta-se praticando! 🚀
